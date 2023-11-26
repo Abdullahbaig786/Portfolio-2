@@ -1,7 +1,8 @@
 import React from "react";
 import HomePage from "./components/homepage";
-import About from "./components/about"; // Corrected import
+import About from "./components/about";
 import Skills from "./components/skills";
+import Projects from "./components/projects";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <HomePage />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };
