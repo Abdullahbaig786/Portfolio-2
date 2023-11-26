@@ -1,19 +1,24 @@
 import React from "react";
+import project1Image from "../assets/hangman.png"; // Adjust the path based on your project structure
+import project2Image from "../assets/Ironclass.png"; // Adjust the path based on your project structure
 
 const projectsData = [
   {
     id: 1,
-    title: "Project 1",
-    description: "A description of Project 1.",
-    technologies: ["React", "Node.js", "MongoDB"],
-    website: "https://example.com/project1",
+    title: "Hangman",
+    description: "It is a small logical browser game",
+    tools: ["HTML", "CSS", "JavaScript", "GitHub"],
+    website: "https://abdullahbaig786.github.io/HangManProject/",
+    image: project1Image,
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "A description of Project 2.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    website: "https://example.com/project2",
+    title: "Ironclass",
+    description:
+      "It's an E-learning platform that empowers you to curate your personalized study playlists.",
+    tools: ["HTML", "CSS", "JavaScript"],
+    website: "https://ironclass.onrender.com/",
+    image: project2Image,
   },
   // Add more projects as needed
 ];
@@ -41,11 +46,19 @@ const Projects = () => {
               key={project.id}
               className="bg-white rounded-lg p-6 shadow-md cursor-pointer"
             >
+              {/* Display project image with a specific size and object-fit */}
+              <img
+                src={project.image}
+                alt={project.title}
+                className="mb-4 rounded-md"
+                style={{ width: "300px", height: "200px", objectFit: "cover" }} // Set your desired size
+              />
+
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-700 mb-4">{project.description}</p>
               <div className="flex space-x-2 mb-4">
-                <strong>Technologies:</strong>
-                {project.technologies.map((tech, index) => (
+                <strong>Tools:</strong>
+                {project.tools.map((tech, index) => (
                   <span key={index} className="text-gray-500">
                     {tech}
                   </span>

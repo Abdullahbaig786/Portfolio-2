@@ -1,10 +1,8 @@
 import React from "react";
 
-// Assuming you have imported the necessary stylesheets or classes for styling.
-
 const about = () => {
   return (
-    <div>
+    <div id="about">
       <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
 
       <section className="text-gray-200 bg-gray-900">
@@ -126,7 +124,6 @@ const about = () => {
           </div>
         </div>
       </section>
-      
     </div>
   );
 };
