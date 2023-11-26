@@ -1,6 +1,6 @@
 import React from "react";
-import project1Image from "../assets/hangman.png"; // Adjust the path based on your project structure
-import project2Image from "../assets/Ironclass.png"; // Adjust the path based on your project structure
+import project1Image from "../assets/hangman.png";
+import project2Image from "../assets/Ironclass.png";
 
 const projectsData = [
   {
@@ -16,7 +16,7 @@ const projectsData = [
     title: "Ironclass",
     description:
       "It's an E-learning platform that empowers you to curate your personalized study playlists.",
-    tools: ["HTML", "CSS", "JavaScript"],
+    tools: ["HTML", "CSS", "JavaScript", "MongoDB", "asd", "asd"],
     website: "https://ironclass.onrender.com/",
     image: project2Image,
   },
@@ -25,7 +25,7 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-10 bg-gray-100">
+    <section id="projects" className="py-10 bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-20">
           <h1 className="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
@@ -46,20 +46,21 @@ const Projects = () => {
               key={project.id}
               className="bg-white rounded-lg p-6 shadow-md cursor-pointer"
             >
-              {/* Display project image with a specific size and object-fit */}
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-4 rounded-md"
-                style={{ width: "300px", height: "200px", objectFit: "cover" }} // Set your desired size
+                className="mb-4 rounded-md w-full h-32 object-cover"
               />
 
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-700 mb-4">{project.description}</p>
-              <div className="flex space-x-2 mb-4">
-                <strong>Tools:</strong>
+              <div className="flex flex-wrap mb-4">
+                <strong className="mr-2">Tools:</strong>
                 {project.tools.map((tech, index) => (
-                  <span key={index} className="text-gray-500">
+                  <span
+                    key={index}
+                    className="text-gray-500 mb-2 mr-2 rounded-full bg-gray-200 px-2 py-1"
+                  >
                     {tech}
                   </span>
                 ))}

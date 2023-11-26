@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/A-logo.png";
+import profile from "../assets/face.jpg";
 
 const Navbar = () => {
   const scrollToSection = (sectionId) => {
@@ -24,7 +25,7 @@ const Navbar = () => {
                   onClick={() => scrollToSection("home")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
-                  Home
+                  HOME
                 </a>
 
                 <a
@@ -32,55 +33,47 @@ const Navbar = () => {
                   onClick={() => scrollToSection("about")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
-                  About
+                  ABOUT
                 </a>
                 <a
                   href="#skills"
                   onClick={() => scrollToSection("skills")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
-                  Skills
+                  SKILLS
                 </a>
                 <a
                   href="#projects"
                   onClick={() => scrollToSection("projects")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
-                  Projects
+                  PROJECT
                 </a>
                 <a
                   href="#contact"
                   onClick={() => scrollToSection("contact")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
-                  Contact
+                  CONTACT
                 </a>
               </div>
             </div>
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">
-              <button
-                type="button"
-                className="relative rounded-full p-1 text-gray-800 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-              >
-                <span className="absolute -inset-1.5"></span>
-                <span className="sr-only">View notifications</span>
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.640 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
+              {/* image+name */}
+              <div className="flex items-center">
+                <div className="w-8 h-8 rounded-full overflow-hidden">
+                  {/* Replace the following URL with your profile picture */}
+                  <img
+                    src={profile}
+                    alt="User Profile"
+                    className="w-full h-full object-cover"
                   />
-                </svg>
-              </button>
+                </div>
+                <span className="ml-2 font-medium">ABDULLAH BAIG</span>
+              </div>
+
               <div className="relative ml-3"></div>
             </div>
           </div>
