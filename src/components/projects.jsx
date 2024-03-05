@@ -26,7 +26,7 @@ const projectsData = [
     title: "Flat Expert",
     description:
       "Flat Expert is a german based website , it helps to found your desired home ",
-    tools: ["HTML", "CSS", "JavaScript", "MongoDB"],
+    tools: ["HTML", "CSS", "JavaScript", "React"],
     website: "https://flat-expert.com/",
     image: project3Image,
   },
