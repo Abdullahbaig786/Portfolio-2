@@ -1,6 +1,7 @@
 import React from "react";
 import project1Image from "../assets/hangman.png";
 import project2Image from "../assets/Ironclass.png";
+import project3Image from "../assets/Flatexpert.png";
 
 const projectsData = [
   {
@@ -16,9 +17,18 @@ const projectsData = [
     title: "Ironclass",
     description:
       "It's an E-learning platform that empowers you to curate your personalized study playlists.",
-    tools: ["HTML", "CSS", "JavaScript", "MongoDB", "asd", "asd"],
+    tools: ["HTML", "CSS", "JavaScript", "MongoDB"],
     website: "https://ironclass.onrender.com/",
     image: project2Image,
+  },
+  {
+    id: 3,
+    title: "Flat Expert",
+    description:
+      "Flat Expert is a german based website , it helps to found your desired home ",
+    tools: ["HTML", "CSS", "JavaScript", "MongoDB"],
+    website: "https://flat-expert.com/",
+    image: project3Image,
   },
   // Add more projects as needed
 ];
