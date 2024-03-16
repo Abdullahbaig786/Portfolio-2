@@ -2,6 +2,7 @@ import React from "react";
 import project1Image from "../assets/hangman.png";
 import project2Image from "../assets/Ironclass.png";
 import project3Image from "../assets/Flatexpert.png";
+import project4Image from "../assets/Ernst360.png";
 
 const projectsData = [
   {
@@ -29,6 +30,15 @@ const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "React"],
     website: "https://flat-expert.com/",
     image: project3Image,
+  },
+  {
+    id: 4,
+    title: "Ernst 360 Grad ",
+    description:
+      "Ernst 360 Grad is a company based in Germany, it provides landscaping services",
+    tools: ["Wordpress", "Canva"],
+    website: "https://ernst-360grad.de/",
+    image: project4Image,
   },
   // Add more projects as needed
 ];
