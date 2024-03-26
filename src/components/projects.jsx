@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "Ernst UA Club ",
     description:
-      "Ernst UA club is a German based company, it provides landscaping services",
+      "Ernst UA club is a German based association, they are passionate about promoting education, culture, and social engagement.",
     tools: ["Wordpress", "Canva"],
     website: "https://ernst-uaclub24.com/",
     image: project5Image,
