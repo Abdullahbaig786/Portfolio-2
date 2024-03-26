@@ -3,6 +3,7 @@ import project1Image from "../assets/hangman.png";
 import project2Image from "../assets/Ironclass.png";
 import project3Image from "../assets/Flatexpert.png";
 import project4Image from "../assets/Ernst360.png";
+import project5Image from "../assets/ernstuaclub.png";
 
 const projectsData = [
   {
@@ -39,6 +40,15 @@ const projectsData = [
     tools: ["Wordpress", "Canva"],
     website: "https://ernst-360grad.de/",
     image: project4Image,
+  },
+  {
+    id: 5,
+    title: "Ernst UA Club ",
+    description:
+      "Ernst UA club is a German based company, it provides landscaping services",
+    tools: ["Wordpress", "Canva"],
+    website: "https://ernst-uaclub24.com/",
+    image: project5Image,
   },
   // Add more projects as needed
 ];
