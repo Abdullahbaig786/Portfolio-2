@@ -5,7 +5,7 @@ import Contact from "./contact";
 
 const App = () => {
   const contactRef = useRef(null);
-
+  //
   useEffect(() => {
     if (contactRef.current) {
       contactRef.current.scrollIntoView({
@@ -19,7 +19,7 @@ const App = () => {
     <div className="min-h-full">
       <section id="home">
         <section className="text-blueGray-700 bg-white mt-20">
-          <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+          <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28 ">
             <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
               <h1 className="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font">
                 {" "}
