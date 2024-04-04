@@ -5,7 +5,7 @@ import Contact from "./contact";
 
 const App = () => {
   const contactRef = useRef(null);
-  ////
+
   useEffect(() => {
     if (contactRef.current) {
       contactRef.current.scrollIntoView({
