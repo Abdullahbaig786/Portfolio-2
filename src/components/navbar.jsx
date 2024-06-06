@@ -50,8 +50,8 @@ const Navbar = () => {
                   PROJECT
                 </a>
                 <a
-                  href="#contact"
-                  onClick={() => scrollToSection("contact")}
+                  href=""
+                  onClick={() => scrollToSection("")}
                   className="text-black hover:text-blue-500 px-3 py-2 text-sm font-medium"
                 >
                   CONTACT
