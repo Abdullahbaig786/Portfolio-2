@@ -4,6 +4,7 @@ import project2Image from "../assets/Ironclass.png";
 import project3Image from "../assets/Flatexpert.png";
 import project4Image from "../assets/Ernst360.png";
 import project5Image from "../assets/ernstuaclub.png";
+import project6Image from "../assets/Personalservice.png";
 
 const projectsData = [
   {
@@ -49,6 +50,14 @@ const projectsData = [
     tools: ["Wordpress", "Canva"],
     website: "https://ernst-uaclub24.com/",
     image: project5Image,
+  },
+  {
+    id: 6,
+    title: "Ernst Personalservice ",
+    description: "Ernst Personalservice is a German based association",
+    tools: ["Wordpress", "Canva"],
+    website: "https://ernst-personalservice.de/",
+    image: project6Image,
   },
   // Add more projects as needed
 ];
