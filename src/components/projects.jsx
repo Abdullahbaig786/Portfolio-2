@@ -5,6 +5,7 @@ import project3Image from "../assets/Flatexpert.png";
 import project4Image from "../assets/Ernst360.png";
 import project5Image from "../assets/ernstuaclub.png";
 import project6Image from "../assets/Personalservice.png";
+import project7Image from "../assets/OH.png";
 
 const projectsData = [
   {
@@ -58,6 +59,15 @@ const projectsData = [
     tools: ["Wordpress", "Canva"],
     website: "https://ernst-personalservice.de/",
     image: project6Image,
+  },
+  {
+    id: 7,
+    title: "Open Horizons ",
+    description:
+      "Open Horizons is a German based association. The Open Horizons team actively supports working beneficiaries in the course of their integration efforts.",
+    tools: ["Wordpress", "Canva"],
+    website: "https://open-horizons-bln.de/",
+    image: project7Image,
   },
   // Add more projects as needed
 ];
