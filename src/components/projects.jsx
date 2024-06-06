@@ -6,6 +6,7 @@ import project4Image from "../assets/Ernst360.png";
 import project5Image from "../assets/ernstuaclub.png";
 import project6Image from "../assets/Personalservice.png";
 import project7Image from "../assets/OH.png";
+import project8Image from "../assets/todo.png";
 
 const projectsData = [
   {
@@ -24,6 +25,15 @@ const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "MongoDB"],
     website: "https://ironclass.onrender.com/",
     image: project2Image,
+  },
+  {
+    id: 8,
+    title: "Todo Tracker ",
+    description:
+      "Todo Tracker is an online to-do application. You can write your tasks here and track them online. Additionally, you can edit, delete, and create unlimited new tasks.",
+    tools: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    website: "https://todo-trackerr.netlify.app/",
+    image: project8Image,
   },
   {
     id: 3,
